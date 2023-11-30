@@ -13,7 +13,8 @@ export const CardContainer = styled.View`
   padding: 16px;
   margin: 16px;
   border: 1px solid #53b568;
-  border-radius: 8px;
+  border-radius: 20px;
+  background-color: #15a185;
 `;
 
 export const Input = styled.TextInput<inputProps>`
@@ -34,7 +35,7 @@ export const EditButton = styled.TouchableOpacity<editButtonProps>`
   border-radius: 4px;
   align-self: center;
   ${({isEditing}) =>
-    isEditing ? 'background-color: #53b568;' : 'background-color: red;'}
+    isEditing ? 'background-color: #125488;' : 'background-color: red;'}
 `;
 
 export const Section = styled.View`
@@ -45,4 +46,10 @@ export const Section = styled.View`
 
 export const ButtonText = styled.Text`
   color: #fff;
+`;
+
+export const CardSubContainer = styled.View`
+  border-radius: ${RFValue(10)}px;
+  background-color: #fff;
+  margin: ${RFValue(10)}px 0px;
 `;

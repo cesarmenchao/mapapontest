@@ -33,7 +33,7 @@ function App(): JSX.Element {
           <Stack.Screen
             name="DataList"
             component={DataList}
-            options={{title: 'Lista de dados'}}
+            options={{title: 'Clientes'}}
           />
           <Stack.Screen
             name="Client"

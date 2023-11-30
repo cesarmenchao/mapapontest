@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
   return (
     <MainContainer>
       <Text text="Bem vindo ao Mapapon" type="bold" numberOfLines={2} title />
-      <SubmitButton title="Consultar Dados" onPress={navigationToDataList} />
+      <SubmitButton title="Consultar Clientes" onPress={navigationToDataList} />
     </MainContainer>
   );
 };
