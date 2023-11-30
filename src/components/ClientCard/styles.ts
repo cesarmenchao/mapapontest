@@ -6,7 +6,6 @@ export const Card = styled.TouchableOpacity`
   padding: ${RFValue(8)}px;
   background-color: #15a185;
   margin: 5px;
-  height: ${RFValue(170)}px;
   width: ${RFValue(250)}px;
   border: 3px solid #53b568;
 `;
@@ -20,4 +19,5 @@ export const AddressCard = styled.View`
   padding: ${RFValue(8)}px;
   background-color: #fff;
   flex: 1;
+  height: auto;
 `;

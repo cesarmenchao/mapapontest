@@ -11,7 +11,6 @@ export const DataList: React.FC = () => {
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
   const [data, setData] = useState<ClientData>();
   const [loading, setLoading] = useState(true);
-  const [client, setClient] = useState<ClientData>();
 
   useEffect(() => {
     const fetchData = async () => {

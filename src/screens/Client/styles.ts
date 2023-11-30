@@ -22,6 +22,7 @@ export const Input = styled.TextInput<inputProps>`
   width: ${RFValue(140)}px;
   border: 1px solid #ccc;
   margin-left: auto;
+  color: black;
   font-size: ${RFValue(14)}px;
   border-radius: 10px;
   padding: 8px;
